@@ -1,11 +1,11 @@
-#include <stdio.h>
+#include <iostream>
+using namespace std;
 
 int main() {
-    int i;
-    int numbers[5] = {1};  // first element initialized to 1
+    int numbers[5] = {1};  // first element initialized to 1, rest are 0
 
-    for (i = 0; i < 5; i++) {
-        printf("%d", numbers[i]);
+    for (int i = 0; i < 5; i++) {
+        cout << numbers[i];
     }
     return 0;
 }
